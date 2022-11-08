@@ -1,12 +1,3 @@
-# This program reads an image file e.g. adesdesk_logo.jpg,
-# it splits the read image into its component RGB bands
-# and generates five channels of varying intensities of this image
-# this body of code can be refactored to collapse all five "for loops" into one
-# I have done this elsewhere, but I maintain a copy of this code still,
-# as a remembrance of what I came up with, in an assignment during my earliest days of learning python programming.
-# Yours truly, adesdesk
-
-
 import PIL
 from PIL import Image
 from PIL import ImageEnhance
